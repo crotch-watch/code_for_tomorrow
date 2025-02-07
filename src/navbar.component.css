@@ -1,0 +1,44 @@
+.navbar {
+  width: 30vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 10px -4px 16px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -4px 16px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px -4px 16px -9px rgba(0, 0, 0, 0.75);
+}
+.sidebar-container {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.side-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.side-card.feedback {
+  gap: 1rem;
+}
+
+.toggl-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.avatar-small-container img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+}
